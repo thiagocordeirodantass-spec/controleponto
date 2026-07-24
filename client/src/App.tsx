@@ -1,5 +1,6 @@
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
+import { appRoutes } from "@/lib/navigation";
 import Account from "@/pages/Account";
 import History from "@/pages/History";
 import NotFound from "@/pages/NotFound";
@@ -15,14 +16,14 @@ import Home from "./pages/Home";
 function Router() {
   return (
     <Switch>
-      <Route path={"/"} component={Home} />
-      <Route path={"/ponto"} component={TimeClock} />
-      <Route path={"/historico"} component={History} />
-      <Route path={"/projetos"} component={Projects} />
-      <Route path={"/relatorios"} component={Reports} />
-      <Route path={"/configuracoes"} component={Settings} />
-      <Route path={"/minha-conta"} component={Account} />
-      <Route path={"/404"} component={NotFound} />
+      <Route path={appRoutes.dashboard} component={Home} />
+      <Route path={appRoutes.timeClock} component={TimeClock} />
+      <Route path={appRoutes.history} component={History} />
+      <Route path={appRoutes.projects} component={Projects} />
+      <Route path={appRoutes.reports} component={Reports} />
+      <Route path={appRoutes.settings} component={Settings} />
+      <Route path={appRoutes.account} component={Account} />
+      <Route path={appRoutes.notFound} component={NotFound} />
       <Route component={NotFound} />
     </Switch>
   );
