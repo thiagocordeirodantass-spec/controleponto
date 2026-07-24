@@ -1,0 +1,17 @@
+COMO PUBLICAR O PROJETO NO GITHUB
+
+1. Extraia todo o conteúdo do ZIP para uma pasta.
+2. Instale o Git, caso ainda não tenha:
+   https://git-scm.com/download/win
+3. Dê dois cliques em PUBLICAR_NO_GITHUB.bat.
+4. Quando o GitHub solicitar, entre na conta thiagocordeirodantass-spec.
+5. Aguarde a mensagem "PUBLICAÇÃO CONCLUÍDA COM SUCESSO".
+
+Repositório configurado:
+https://github.com/thiagocordeirodantass-spec/controleponto
+
+Importante:
+- Não mova o arquivo BAT para fora da pasta extraída.
+- A pasta "projeto" precisa permanecer ao lado dele.
+- O aplicativo GitHub Desktop não é obrigatório.
+- Apenas o Git para Windows precisa estar instalado.
